@@ -11,19 +11,11 @@
 		F687C5AF21778B210070E9A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F687C5AE21778B210070E9A7 /* ViewController.swift */; };
 		F687C5B221778B210070E9A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F687C5B021778B210070E9A7 /* Main.storyboard */; };
 		F687C5B421778B240070E9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F687C5B321778B240070E9A7 /* Assets.xcassets */; };
-		F687C5BF21778B240070E9A7 /* LoginPageTvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F687C5BE21778B240070E9A7 /* LoginPageTvOSTests.swift */; };
-		F687C5CA21778B240070E9A7 /* LoginPageTvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F687C5C921778B240070E9A7 /* LoginPageTvOSUITests.swift */; };
+		F687C5DE217793250070E9A7 /* LoginPageTvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F687C5DD217793250070E9A7 /* LoginPageTvOSUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F687C5BB21778B240070E9A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F687C5A121778B210070E9A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F687C5A821778B210070E9A7;
-			remoteInfo = LoginPageTvOS;
-		};
-		F687C5C621778B240070E9A7 /* PBXContainerItemProxy */ = {
+		F687C5E0217793250070E9A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F687C5A121778B210070E9A7 /* Project object */;
 			proxyType = 1;
@@ -39,12 +31,9 @@
 		F687C5B121778B210070E9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F687C5B321778B240070E9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F687C5B521778B240070E9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F687C5BA21778B240070E9A7 /* LoginPageTvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPageTvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F687C5BE21778B240070E9A7 /* LoginPageTvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageTvOSTests.swift; sourceTree = "<group>"; };
-		F687C5C021778B240070E9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F687C5C521778B240070E9A7 /* LoginPageTvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPageTvOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F687C5C921778B240070E9A7 /* LoginPageTvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageTvOSUITests.swift; sourceTree = "<group>"; };
-		F687C5CB21778B240070E9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F687C5DB217793240070E9A7 /* LoginPageTvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPageTvOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F687C5DD217793250070E9A7 /* LoginPageTvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageTvOSUITests.swift; sourceTree = "<group>"; };
+		F687C5DF217793250070E9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +44,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F687C5B721778B240070E9A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F687C5C221778B240070E9A7 /* Frameworks */ = {
+		F687C5D8217793240070E9A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				F687C5AB21778B210070E9A7 /* LoginPageTvOS */,
-				F687C5BD21778B240070E9A7 /* LoginPageTvOSTests */,
-				F687C5C821778B240070E9A7 /* LoginPageTvOSUITests */,
+				F687C5DC217793250070E9A7 /* LoginPageTvOSUITests */,
 				F687C5AA21778B210070E9A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				F687C5A921778B210070E9A7 /* LoginPageTvOS.app */,
-				F687C5BA21778B240070E9A7 /* LoginPageTvOSTests.xctest */,
-				F687C5C521778B240070E9A7 /* LoginPageTvOSUITests.xctest */,
+				F687C5DB217793240070E9A7 /* LoginPageTvOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,20 +84,11 @@
 			path = LoginPageTvOS;
 			sourceTree = "<group>";
 		};
-		F687C5BD21778B240070E9A7 /* LoginPageTvOSTests */ = {
+		F687C5DC217793250070E9A7 /* LoginPageTvOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F687C5BE21778B240070E9A7 /* LoginPageTvOSTests.swift */,
-				F687C5C021778B240070E9A7 /* Info.plist */,
-			);
-			path = LoginPageTvOSTests;
-			sourceTree = "<group>";
-		};
-		F687C5C821778B240070E9A7 /* LoginPageTvOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F687C5C921778B240070E9A7 /* LoginPageTvOSUITests.swift */,
-				F687C5CB21778B240070E9A7 /* Info.plist */,
+				F687C5DD217793250070E9A7 /* LoginPageTvOSUITests.swift */,
+				F687C5DF217793250070E9A7 /* Info.plist */,
 			);
 			path = LoginPageTvOSUITests;
 			sourceTree = "<group>";
@@ -142,40 +113,22 @@
 			productReference = F687C5A921778B210070E9A7 /* LoginPageTvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F687C5B921778B240070E9A7 /* LoginPageTvOSTests */ = {
+		F687C5DA217793240070E9A7 /* LoginPageTvOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F687C5D121778B240070E9A7 /* Build configuration list for PBXNativeTarget "LoginPageTvOSTests" */;
+			buildConfigurationList = F687C5E2217793250070E9A7 /* Build configuration list for PBXNativeTarget "LoginPageTvOSUITests" */;
 			buildPhases = (
-				F687C5B621778B240070E9A7 /* Sources */,
-				F687C5B721778B240070E9A7 /* Frameworks */,
-				F687C5B821778B240070E9A7 /* Resources */,
+				F687C5D7217793240070E9A7 /* Sources */,
+				F687C5D8217793240070E9A7 /* Frameworks */,
+				F687C5D9217793240070E9A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F687C5BC21778B240070E9A7 /* PBXTargetDependency */,
-			);
-			name = LoginPageTvOSTests;
-			productName = LoginPageTvOSTests;
-			productReference = F687C5BA21778B240070E9A7 /* LoginPageTvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F687C5C421778B240070E9A7 /* LoginPageTvOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F687C5D421778B240070E9A7 /* Build configuration list for PBXNativeTarget "LoginPageTvOSUITests" */;
-			buildPhases = (
-				F687C5C121778B240070E9A7 /* Sources */,
-				F687C5C221778B240070E9A7 /* Frameworks */,
-				F687C5C321778B240070E9A7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F687C5C721778B240070E9A7 /* PBXTargetDependency */,
+				F687C5E1217793250070E9A7 /* PBXTargetDependency */,
 			);
 			name = LoginPageTvOSUITests;
 			productName = LoginPageTvOSUITests;
-			productReference = F687C5C521778B240070E9A7 /* LoginPageTvOSUITests.xctest */;
+			productReference = F687C5DB217793240070E9A7 /* LoginPageTvOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -191,11 +144,7 @@
 					F687C5A821778B210070E9A7 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					F687C5B921778B240070E9A7 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = F687C5A821778B210070E9A7;
-					};
-					F687C5C421778B240070E9A7 = {
+					F687C5DA217793240070E9A7 = {
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = F687C5A821778B210070E9A7;
 					};
@@ -215,8 +164,7 @@
 			projectRoot = "";
 			targets = (
 				F687C5A821778B210070E9A7 /* LoginPageTvOS */,
-				F687C5B921778B240070E9A7 /* LoginPageTvOSTests */,
-				F687C5C421778B240070E9A7 /* LoginPageTvOSUITests */,
+				F687C5DA217793240070E9A7 /* LoginPageTvOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,14 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F687C5B821778B240070E9A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F687C5C321778B240070E9A7 /* Resources */ = {
+		F687C5D9217793240070E9A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,34 +198,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F687C5B621778B240070E9A7 /* Sources */ = {
+		F687C5D7217793240070E9A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F687C5BF21778B240070E9A7 /* LoginPageTvOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F687C5C121778B240070E9A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F687C5CA21778B240070E9A7 /* LoginPageTvOSUITests.swift in Sources */,
+				F687C5DE217793250070E9A7 /* LoginPageTvOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F687C5BC21778B240070E9A7 /* PBXTargetDependency */ = {
+		F687C5E1217793250070E9A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F687C5A821778B210070E9A7 /* LoginPageTvOS */;
-			targetProxy = F687C5BB21778B240070E9A7 /* PBXContainerItemProxy */;
-		};
-		F687C5C721778B240070E9A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F687C5A821778B210070E9A7 /* LoginPageTvOS */;
-			targetProxy = F687C5C621778B240070E9A7 /* PBXContainerItemProxy */;
+			targetProxy = F687C5E0217793250070E9A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -450,50 +378,9 @@
 			};
 			name = Release;
 		};
-		F687C5D221778B240070E9A7 /* Debug */ = {
+		F687C5E3217793250070E9A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LoginPageTvOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = yyyy.LoginPageTvOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginPageTvOS.app/LoginPageTvOS";
-			};
-			name = Debug;
-		};
-		F687C5D321778B240070E9A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LoginPageTvOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = yyyy.LoginPageTvOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginPageTvOS.app/LoginPageTvOS";
-			};
-			name = Release;
-		};
-		F687C5D521778B240070E9A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginPageTvOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,10 +396,9 @@
 			};
 			name = Debug;
 		};
-		F687C5D621778B240070E9A7 /* Release */ = {
+		F687C5E4217793250070E9A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginPageTvOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -549,20 +435,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F687C5D121778B240070E9A7 /* Build configuration list for PBXNativeTarget "LoginPageTvOSTests" */ = {
+		F687C5E2217793250070E9A7 /* Build configuration list for PBXNativeTarget "LoginPageTvOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F687C5D221778B240070E9A7 /* Debug */,
-				F687C5D321778B240070E9A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F687C5D421778B240070E9A7 /* Build configuration list for PBXNativeTarget "LoginPageTvOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F687C5D521778B240070E9A7 /* Debug */,
-				F687C5D621778B240070E9A7 /* Release */,
+				F687C5E3217793250070E9A7 /* Debug */,
+				F687C5E4217793250070E9A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
